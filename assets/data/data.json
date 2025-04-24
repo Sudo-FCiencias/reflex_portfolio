@@ -1,0 +1,89 @@
+{
+    "title": "Your Name | Portfolio",
+    "description": "I'm [Your Name]. A Passionate Developer and More.",
+    "image": "images/avatar.png",
+    "avatar": "images/avatar.png",
+    "name": "Your Name",
+    "skill": "Developer, Tech Enthusiast",
+    "location": "Your City",
+    "media": {
+      "email": "youremail@example.com",
+      "cv": "/data/Your_Resume.pdf",
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername"
+    },
+    "about": "Write a brief professional summary about yourself here. Mention your academic background, interests, and key achievements.",
+    "technologies": [
+      { "icon": "devicon-git-plain", "name": "Git" },
+      { "icon": "devicon-github-plain", "name": "GitHub" },
+      { "icon": "devicon-java-plain", "name": "Java" },
+      { "icon": "devicon-linux-plain", "name": "Linux" },
+      { "icon": "devicon-mariadb-plain", "name": "SQL" },
+      { "icon": "devicon-python-plain", "name": "Python" },
+      { "icon": "devicon-windows11-plain", "name": "Windows" }
+    ],
+    "languages": [
+      { "icon": "message-square-text", "name": "Spanish (Native)" },
+      { "icon": "message-square-text", "name": "English (C1)" }
+    ],
+    "experience": [
+      {
+        "icon": "user-cog",
+        "title": "IT Support Engineer",
+        "subtitle": "Your Company Name",
+        "description": "Brief description of your role.",
+        "date": "Start Year - Present"
+      }
+    ],
+    "projects": [
+      {
+        "icon": "brain-circuit",
+        "title": "Some Cool Name",
+        "subtitle": "That Solves this problem",
+        "description": "Made with these cool technologies.",
+        "technologies": [
+          { "icon": "devicon-haskell-plain", "name": "Haskell" }
+        ],
+        "image": "images/project_1.jpg",
+        "github": "https://github.com/yourusername/project-repo"
+      },
+      {
+        "icon": "database",
+        "title": "SQL Fun Project",
+        "subtitle": "Database Project",
+        "description": "I promise it wont break on launch day!.",
+        "technologies": [
+          { "icon": "devicon-mysql-plain", "name": "MariaDB" }
+        ],
+        "image": "images/project_2.jpg",
+        "github": "https://github.com/yourusername/project-repo"
+      }
+    ],
+    "training": [
+      {
+        "icon": "school",
+        "title": "Bachelor's Degree in Computer Science",
+        "subtitle": "Your University",
+        "description": "Brief description of your study focus.",
+        "date": "Start Year - Present",
+        "certificate": ""
+      },
+      {
+        "icon": "graduation-cap",
+        "title": "GitHub Foundations",
+        "subtitle": "Certification by GitHub",
+        "description": "Fundamentals of GitHub usage and project management.",
+        "date": "2024 - 2027",
+        "certificate": "https://www.credly.com/link-to-certificate"
+      }
+    ],
+    "extras": [
+      {
+        "image": "images/community.png",
+        "title": "Tech Community Project",
+        "description": "A community initiative aimed at spreading tech knowledge.",
+        "url": "https://linktr.ee/yourcommunity"
+      }
+    ]
+  }
+  

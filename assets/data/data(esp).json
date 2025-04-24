@@ -1,0 +1,88 @@
+{
+    "title": "Tu Nombre | Portafolio",
+    "description": "Soy [Tu Nombre]. Un Desarrollador Apasionado y Más.",
+    "image": "images/avatar.png",
+    "avatar": "images/avatar.png",
+    "name": "Tu Nombre",
+    "skill": "Desarrollador, Entusiasta de la Tecnología",
+    "location": "Tu Ciudad",
+    "media": {
+      "email": "tucorreo@example.com",
+      "cv": "/data/Tu_CV.pdf",
+      "github": "https://github.com/tuusuario",
+      "linkedin": "https://linkedin.com/in/tuusuario"
+    },
+    "about": "Escribe aquí un resumen profesional breve sobre ti. Menciona tu formación académica, intereses y logros clave.",
+    "technologies": [
+      { "icon": "devicon-git-plain", "name": "Git" },
+      { "icon": "devicon-github-plain", "name": "GitHub" },
+      { "icon": "devicon-haskell-plain", "name": "Haskell" },
+      { "icon": "devicon-java-plain", "name": "Java" },
+      { "icon": "devicon-mariadb-plain", "name": "SQL" },
+      { "icon": "devicon-python-plain", "name": "Python" }
+    ],
+    "languages": [
+      { "icon": "message-square-text", "name": "Español (Nativo)" },
+      { "icon": "message-square-text", "name": "Inglés (C1)" }
+    ],
+    "experience": [
+      {
+        "icon": "user-cog",
+        "title": "Ingeniero de Software",
+        "subtitle": "Nombre de Tu Empresa",
+        "description": "Descripción breve de tu puesto.",
+        "date": "Año de Inicio - Actualidad"
+      }
+    ],
+    "projects": [
+      {
+        "icon": "brain-circuit",
+        "title": "Nombre Genial",
+        "subtitle": "Que Resuelve este Problema",
+        "description": "Hecho con estas tecnologías geniales.",
+        "technologies": [
+          { "icon": "devicon-haskell-plain", "name": "Haskell" }
+        ],
+        "image": "images/project_1.jpg",
+        "github": "https://github.com/tuusuario/repositorio"
+      },
+      {
+        "icon": "database",
+        "title": "Proyecto Divertido con SQL",
+        "subtitle": "Proyecto de Base de Datos",
+        "description": "¡Prometo que no fallará el día del lanzamiento!",
+        "technologies": [
+          { "icon": "devicon-mysql-plain", "name": "MariaDB" }
+        ],
+        "image": "images/project_2.jpg",
+        "github": "https://github.com/tuusuario/repositorio"
+      }
+    ],
+    "training": [
+      {
+        "icon": "school",
+        "title": "Licenciatura en Ciencias de la Computación",
+        "subtitle": "Tu Universidad",
+        "description": "Descripción breve de tu enfoque de estudio.",
+        "date": "Año de Inicio - Actualidad",
+        "certificate": ""
+      },
+      {
+        "icon": "graduation-cap",
+        "title": "Fundamentos de GitHub",
+        "subtitle": "Certificación por GitHub",
+        "description": "Fundamentos del uso de GitHub y gestión de proyectos.",
+        "date": "2024 - 2027",
+        "certificate": "https://www.credly.com/enlace-al-certificado"
+      }
+    ],
+    "extras": [
+      {
+        "image": "images/community_logo.jpg",
+        "title": "Proyecto de Comunidad Tecnológica",
+        "description": "Una iniciativa comunitaria para difundir el conocimiento tecnológico.",
+        "url": "https://linktr.ee/tucomunidad"
+      }
+    ]
+  }
+  
