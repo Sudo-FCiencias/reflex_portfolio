@@ -39,8 +39,8 @@ def card_detail(extra: Extra) -> rx.Component:
             ),
             rx.text.strong(extra.title),
             rx.text(extra.description, size=Size.SMALL.value, color_scheme="gray"),
+            href=extra.url,
+            is_external=True,
         ),
         width="90%",
-        href=extra.url,
-        is_external=True,
     )
