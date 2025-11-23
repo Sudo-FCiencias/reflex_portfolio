@@ -1,10 +1,12 @@
 # portafolio.py
-Template de portafolio mostrado en el evento "PythonCDMX x Sudo", hecha en Reflex.
+Template de portafolio mostrado en el evento "PythonCDMX x Sudo" @ Facultad de Ciencias, UNAM, el 25 de Abril de 2025 hecha en Reflex.
+Update: Y también mostrada en el webinar "Python 360°: De la Web a la Ciencia de Datos" el 25 de de Noviembre de 2025.
 
 # ¿Como instalo las dependencias de la plantilla?
 
 ## Siguiendo lo tradicional
-Clona el proyecto, crea un entorno virtual, instala Reflex y ejecútalo para acceder al proyecto desde [http://localhost:3000](http://localhost:3000).
+
+Clona el proyecto, instala Python, crea un entorno virtual, instala Reflex y ejecútalo para acceder al proyecto desde [el puerto 300](http://localhost:3000).
 
 ```bash
 pip install -r requirements.txt"
@@ -13,14 +15,18 @@ reflex run
 ```
 
 ## La forma rápida
+
 Instala [uv](https://docs.astral.sh/uv/). Clona el repositorio y luego haces lo siguiente
+
 ```bash
 uv init
-uv add -r requirements.txt
 source .venv/bin/activate
+uv add -r requirements.txt
 reflex init
 reflex run
 ```
+
+Esto abrirá [el puerto 300](http://localhost:3000) para accedas desde tu navegador y puedas visualizar tus cambios.
 
 # ¿Qué debo editar para usar la plantilla?
 
@@ -34,9 +40,8 @@ Si quieres meterte más hacia lo gráfico, puedes revisar:
 - `assets/images/` para cambiar el favicon, las imagenes de tus proyectos, tu avatar, etc.
 - `portafolio/styles/styles.py` para hacer ajustes de tamaño.
 - `portafolio/portafolio.py` para cambiar el esquema de colores.
-- Los iconos generales se corresponden con los identificadores de [Lucide icons](https://lucide.dev/icons/).
-- Los iconos de las tecnologías se corresponden con los identificadores de [Devicon](https://devicon.dev/).
-
+- Los iconos generales corresponden con los identificadores de [Lucide icons](https://lucide.dev/icons/).
+- Los iconos de las tecnologías corresponden con los identificadores de [Devicon](https://devicon.dev/).
 
 ## Aviso de Cambio de Idioma
 
@@ -46,10 +51,9 @@ el texto hardcodeado que aparecerá en algunos lugares de la plantilla (esto no 
 - `index()` en `portafolio/portafolio.py`
 - El final de `portafolio/data.py` para cambiar el archivo.
 
-
 # ¿Cómo lo despliego?
 
-La forma más rápida es usar Vercel. Se configura el despliegue automático desde los archivos [vercel.json](./vercel.json) y [build.sh](./build.sh). Solo debes de conectar tu cuenta de GitHub a la plataforma para poder desplegar los archivos.
+La forma más rápida es usar [Vercel](https://vercel.com/). Se configura el despliegue automático desde los archivos [vercel.json](./vercel.json) y [build.sh](./build.sh). Solo debes de conectar tu cuenta de GitHub y el repo a Vercel para poder desplegar los archivos. Para obtener un dominio más _profesional_ puedes usar [is-a.dev](https://is-a.dev/) y hacer los ajustes necesarios para conectar tu dominio.
 
 # Reconocimientos
 
